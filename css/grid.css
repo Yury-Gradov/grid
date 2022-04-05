@@ -1,0 +1,123 @@
+@import url(
+'https://fonts.googleapis.com/css?family=Raleway'
+);
+
+@import url(
+'https://fonts.googleapis.com/css?family=Kaushan+Script'
+);
+
+html{
+    width: 100%;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.about{
+    max-width: 1170px;
+}
+.about__text__1{
+    height: 80px;
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    color: #2D3033;
+}
+.about__text__2{
+    height: 81px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+.about__separator{
+    width: 170px;
+    height: 0;
+    border: 1px solid #F38281;
+    background: #F38281;
+    margin-left: 509px;
+}
+.about__text__3{
+    height: 118px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: #000000;
+}
+.images__block__6__text1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.images__block__6__text2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.imgages__1{
+    grid-area: a;
+}
+.imgages__2{
+    grid-area: b;
+}
+.imgages__3{
+    grid-area: c;
+}
+.imgages__4{
+    grid-area: d;
+}
+.imgages__5{
+    grid-area: e;
+}
+.images__block__6{
+    background: url(../assets/6.png), url(../assets/6-2.png);
+    grid-area: f;
+    display: grid;
+    align-content: space-around;
+    justify-items: center;
+}
+.imgages__7{
+    grid-area: i;
+}
+.images{
+    max-width: 1510px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        'a b c d'
+        'e f c i'
+    ;
+}
